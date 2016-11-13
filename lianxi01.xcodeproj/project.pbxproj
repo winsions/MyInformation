@@ -1,0 +1,625 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CF1909951CA800A10023446A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CF1909941CA800A10023446A /* main.m */; };
+		CF1909981CA800A10023446A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CF1909971CA800A10023446A /* AppDelegate.m */; };
+		CF19099B1CA800A10023446A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF19099A1CA800A10023446A /* ViewController.m */; };
+		CF19099E1CA800A10023446A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF19099C1CA800A10023446A /* Main.storyboard */; };
+		CF1909A01CA800A10023446A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF19099F1CA800A10023446A /* Assets.xcassets */; };
+		CF1909A31CA800A10023446A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF1909A11CA800A10023446A /* LaunchScreen.storyboard */; };
+		CF1909AE1CA800A10023446A /* lianxi01Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF1909AD1CA800A10023446A /* lianxi01Tests.m */; };
+		CF1909B91CA800A10023446A /* lianxi01UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF1909B81CA800A10023446A /* lianxi01UITests.m */; };
+		CF1909C81CA802F70023446A /* ProfrieTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF1909C71CA802F70023446A /* ProfrieTableViewController.m */; };
+		CF1909CB1CA813CC0023446A /* EditProfrieTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF1909CA1CA813CC0023446A /* EditProfrieTableViewController.m */; };
+		CF1909D41CA821610023446A /* UIViewController+DismissKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = CF1909D31CA821610023446A /* UIViewController+DismissKeyboard.m */; };
+		CF1909DE1CA823970023446A /* UserInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = CF1909DD1CA823970023446A /* UserInfo.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CF1909AA1CA800A10023446A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF1909881CA800A10023446A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF19098F1CA800A10023446A;
+			remoteInfo = lianxi01;
+		};
+		CF1909B51CA800A10023446A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF1909881CA800A10023446A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF19098F1CA800A10023446A;
+			remoteInfo = lianxi01;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CF1909901CA800A10023446A /* lianxi01.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lianxi01.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF1909941CA800A10023446A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CF1909961CA800A10023446A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../../AppDelegate.h; sourceTree = "<group>"; };
+		CF1909971CA800A10023446A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ../../AppDelegate.m; sourceTree = "<group>"; };
+		CF1909991CA800A10023446A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = ../../../ViewController.h; sourceTree = "<group>"; };
+		CF19099A1CA800A10023446A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = ../../../ViewController.m; sourceTree = "<group>"; };
+		CF19099D1CA800A10023446A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CF19099F1CA800A10023446A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CF1909A21CA800A10023446A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CF1909A41CA800A10023446A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF1909A91CA800A10023446A /* lianxi01Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = lianxi01Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF1909AD1CA800A10023446A /* lianxi01Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = lianxi01Tests.m; sourceTree = "<group>"; };
+		CF1909AF1CA800A10023446A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF1909B41CA800A10023446A /* lianxi01UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = lianxi01UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF1909B81CA800A10023446A /* lianxi01UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = lianxi01UITests.m; sourceTree = "<group>"; };
+		CF1909BA1CA800A10023446A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF1909C61CA802F70023446A /* ProfrieTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ProfrieTableViewController.h; path = ../../../../ProfrieTableViewController.h; sourceTree = "<group>"; };
+		CF1909C71CA802F70023446A /* ProfrieTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ProfrieTableViewController.m; path = ../../../../ProfrieTableViewController.m; sourceTree = "<group>"; };
+		CF1909C91CA813CC0023446A /* EditProfrieTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EditProfrieTableViewController.h; path = ../../../../EditProfrieTableViewController.h; sourceTree = "<group>"; };
+		CF1909CA1CA813CC0023446A /* EditProfrieTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EditProfrieTableViewController.m; path = ../../../../EditProfrieTableViewController.m; sourceTree = "<group>"; };
+		CF1909D21CA821610023446A /* UIViewController+DismissKeyboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+DismissKeyboard.h"; sourceTree = "<group>"; };
+		CF1909D31CA821610023446A /* UIViewController+DismissKeyboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+DismissKeyboard.m"; sourceTree = "<group>"; };
+		CF1909D51CA821860023446A /* Header.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.pch; sourceTree = "<group>"; };
+		CF1909DC1CA823970023446A /* UserInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserInfo.h; sourceTree = "<group>"; };
+		CF1909DD1CA823970023446A /* UserInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserInfo.m; sourceTree = "<group>"; };
+		CF1909DF1CA823A90023446A /* Singleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Singleton.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF19098D1CA800A10023446A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF1909A61CA800A10023446A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF1909B11CA800A10023446A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CF1909871CA800A10023446A = {
+			isa = PBXGroup;
+			children = (
+				CF1909921CA800A10023446A /* lianxi01 */,
+				CF1909AC1CA800A10023446A /* lianxi01Tests */,
+				CF1909B71CA800A10023446A /* lianxi01UITests */,
+				CF1909911CA800A10023446A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CF1909911CA800A10023446A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF1909901CA800A10023446A /* lianxi01.app */,
+				CF1909A91CA800A10023446A /* lianxi01Tests.xctest */,
+				CF1909B41CA800A10023446A /* lianxi01UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF1909921CA800A10023446A /* lianxi01 */ = {
+			isa = PBXGroup;
+			children = (
+				CF1909CC1CA820380023446A /* Classes */,
+				CF1909931CA800A10023446A /* Supporting Files */,
+			);
+			path = lianxi01;
+			sourceTree = "<group>";
+		};
+		CF1909931CA800A10023446A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CF19099C1CA800A10023446A /* Main.storyboard */,
+				CF19099F1CA800A10023446A /* Assets.xcassets */,
+				CF1909A11CA800A10023446A /* LaunchScreen.storyboard */,
+				CF1909A41CA800A10023446A /* Info.plist */,
+				CF1909941CA800A10023446A /* main.m */,
+				CF1909D51CA821860023446A /* Header.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CF1909AC1CA800A10023446A /* lianxi01Tests */ = {
+			isa = PBXGroup;
+			children = (
+				CF1909AD1CA800A10023446A /* lianxi01Tests.m */,
+				CF1909AF1CA800A10023446A /* Info.plist */,
+			);
+			path = lianxi01Tests;
+			sourceTree = "<group>";
+		};
+		CF1909B71CA800A10023446A /* lianxi01UITests */ = {
+			isa = PBXGroup;
+			children = (
+				CF1909B81CA800A10023446A /* lianxi01UITests.m */,
+				CF1909BA1CA800A10023446A /* Info.plist */,
+			);
+			path = lianxi01UITests;
+			sourceTree = "<group>";
+		};
+		CF1909CC1CA820380023446A /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				CF1909DA1CA8236E0023446A /* Common */,
+				CF1909D01CA820E90023446A /* Tools */,
+				CF1909CE1CA820880023446A /* Other */,
+				CF1909CD1CA820670023446A /* Main */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		CF1909CD1CA820670023446A /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				CF1909CF1CA820AF0023446A /* ViewControllers */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		CF1909CE1CA820880023446A /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				CF1909961CA800A10023446A /* AppDelegate.h */,
+				CF1909971CA800A10023446A /* AppDelegate.m */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		CF1909CF1CA820AF0023446A /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				CF1909D11CA821330023446A /* Me */,
+				CF1909991CA800A10023446A /* ViewController.h */,
+				CF19099A1CA800A10023446A /* ViewController.m */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		CF1909D01CA820E90023446A /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				CF1909D21CA821610023446A /* UIViewController+DismissKeyboard.h */,
+				CF1909D31CA821610023446A /* UIViewController+DismissKeyboard.m */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		CF1909D11CA821330023446A /* Me */ = {
+			isa = PBXGroup;
+			children = (
+				CF1909C61CA802F70023446A /* ProfrieTableViewController.h */,
+				CF1909C71CA802F70023446A /* ProfrieTableViewController.m */,
+				CF1909C91CA813CC0023446A /* EditProfrieTableViewController.h */,
+				CF1909CA1CA813CC0023446A /* EditProfrieTableViewController.m */,
+			);
+			path = Me;
+			sourceTree = "<group>";
+		};
+		CF1909DA1CA8236E0023446A /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				CF1909DB1CA8236E0023446A /* Singleton */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		CF1909DB1CA8236E0023446A /* Singleton */ = {
+			isa = PBXGroup;
+			children = (
+				CF1909DF1CA823A90023446A /* Singleton.h */,
+				CF1909DC1CA823970023446A /* UserInfo.h */,
+				CF1909DD1CA823970023446A /* UserInfo.m */,
+			);
+			path = Singleton;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF19098F1CA800A10023446A /* lianxi01 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF1909BD1CA800A10023446A /* Build configuration list for PBXNativeTarget "lianxi01" */;
+			buildPhases = (
+				CF19098C1CA800A10023446A /* Sources */,
+				CF19098D1CA800A10023446A /* Frameworks */,
+				CF19098E1CA800A10023446A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = lianxi01;
+			productName = lianxi01;
+			productReference = CF1909901CA800A10023446A /* lianxi01.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CF1909A81CA800A10023446A /* lianxi01Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF1909C01CA800A10023446A /* Build configuration list for PBXNativeTarget "lianxi01Tests" */;
+			buildPhases = (
+				CF1909A51CA800A10023446A /* Sources */,
+				CF1909A61CA800A10023446A /* Frameworks */,
+				CF1909A71CA800A10023446A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF1909AB1CA800A10023446A /* PBXTargetDependency */,
+			);
+			name = lianxi01Tests;
+			productName = lianxi01Tests;
+			productReference = CF1909A91CA800A10023446A /* lianxi01Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CF1909B31CA800A10023446A /* lianxi01UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF1909C31CA800A10023446A /* Build configuration list for PBXNativeTarget "lianxi01UITests" */;
+			buildPhases = (
+				CF1909B01CA800A10023446A /* Sources */,
+				CF1909B11CA800A10023446A /* Frameworks */,
+				CF1909B21CA800A10023446A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF1909B61CA800A10023446A /* PBXTargetDependency */,
+			);
+			name = lianxi01UITests;
+			productName = lianxi01UITests;
+			productReference = CF1909B41CA800A10023446A /* lianxi01UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF1909881CA800A10023446A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = Brave;
+				TargetAttributes = {
+					CF19098F1CA800A10023446A = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = 84J3Y66T4A;
+					};
+					CF1909A81CA800A10023446A = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = CF19098F1CA800A10023446A;
+					};
+					CF1909B31CA800A10023446A = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = CF19098F1CA800A10023446A;
+					};
+				};
+			};
+			buildConfigurationList = CF19098B1CA800A10023446A /* Build configuration list for PBXProject "lianxi01" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1909871CA800A10023446A;
+			productRefGroup = CF1909911CA800A10023446A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF19098F1CA800A10023446A /* lianxi01 */,
+				CF1909A81CA800A10023446A /* lianxi01Tests */,
+				CF1909B31CA800A10023446A /* lianxi01UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF19098E1CA800A10023446A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF1909A31CA800A10023446A /* LaunchScreen.storyboard in Resources */,
+				CF1909A01CA800A10023446A /* Assets.xcassets in Resources */,
+				CF19099E1CA800A10023446A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF1909A71CA800A10023446A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF1909B21CA800A10023446A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF19098C1CA800A10023446A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF1909D41CA821610023446A /* UIViewController+DismissKeyboard.m in Sources */,
+				CF1909CB1CA813CC0023446A /* EditProfrieTableViewController.m in Sources */,
+				CF19099B1CA800A10023446A /* ViewController.m in Sources */,
+				CF1909C81CA802F70023446A /* ProfrieTableViewController.m in Sources */,
+				CF1909981CA800A10023446A /* AppDelegate.m in Sources */,
+				CF1909951CA800A10023446A /* main.m in Sources */,
+				CF1909DE1CA823970023446A /* UserInfo.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF1909A51CA800A10023446A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF1909AE1CA800A10023446A /* lianxi01Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF1909B01CA800A10023446A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF1909B91CA800A10023446A /* lianxi01UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CF1909AB1CA800A10023446A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF19098F1CA800A10023446A /* lianxi01 */;
+			targetProxy = CF1909AA1CA800A10023446A /* PBXContainerItemProxy */;
+		};
+		CF1909B61CA800A10023446A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF19098F1CA800A10023446A /* lianxi01 */;
+			targetProxy = CF1909B51CA800A10023446A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CF19099C1CA800A10023446A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF19099D1CA800A10023446A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CF1909A11CA800A10023446A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF1909A21CA800A10023446A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CF1909BB1CA800A10023446A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CF1909BC1CA800A10023446A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CF1909BE1CA800A10023446A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = lianxi01/Header.pch;
+				INFOPLIST_FILE = lianxi01/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.DSkj.lianxi01;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CF1909BF1CA800A10023446A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = lianxi01/Header.pch;
+				INFOPLIST_FILE = lianxi01/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.DSkj.lianxi01;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CF1909C11CA800A10023446A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = lianxi01Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.DSkj.lianxi01Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/lianxi01.app/lianxi01";
+			};
+			name = Debug;
+		};
+		CF1909C21CA800A10023446A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = lianxi01Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.DSkj.lianxi01Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/lianxi01.app/lianxi01";
+			};
+			name = Release;
+		};
+		CF1909C41CA800A10023446A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = lianxi01UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.DSkj.lianxi01UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = lianxi01;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		CF1909C51CA800A10023446A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = lianxi01UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.DSkj.lianxi01UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = lianxi01;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF19098B1CA800A10023446A /* Build configuration list for PBXProject "lianxi01" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF1909BB1CA800A10023446A /* Debug */,
+				CF1909BC1CA800A10023446A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF1909BD1CA800A10023446A /* Build configuration list for PBXNativeTarget "lianxi01" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF1909BE1CA800A10023446A /* Debug */,
+				CF1909BF1CA800A10023446A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF1909C01CA800A10023446A /* Build configuration list for PBXNativeTarget "lianxi01Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF1909C11CA800A10023446A /* Debug */,
+				CF1909C21CA800A10023446A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF1909C31CA800A10023446A /* Build configuration list for PBXNativeTarget "lianxi01UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF1909C41CA800A10023446A /* Debug */,
+				CF1909C51CA800A10023446A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CF1909881CA800A10023446A /* Project object */;
+}
